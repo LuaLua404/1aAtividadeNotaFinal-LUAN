@@ -1,0 +1,69 @@
+<!DOCTYPE html> 
+<html lang="pt-br"> 
+<head> 
+<meta charset="UTF-8"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+    body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px; 
+    height: auto;
+}
+
+.box-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+
+.box-2{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 8px;
+    font-size: 16px;
+    width: 140px;
+}
+
+button {
+    padding: 8px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+</style>
+<title>Questão 2</title> 
+</head>
+<body>
+<h1>Somatório de dois números</h1>
+<p>Digite dois números para somar:</p>
+<div class="box-1">
+<div class="box-2">
+    <input class="number1" type="number" placeholder="Digite um número">
+    <input class="number2" type="number" placeholder="Digite outro número">
+ </div>   
+ <button class="soma">Somar</button>
+</div>
+<script>
+var input1 = document.querySelector('.number1')
+var input2 = document.querySelector('.number2')
+var botao = document.querySelector('.soma')
+
+botao.addEventListener('click', function() {
+    var valor1 = Number(input1.value)
+    var valor2 = Number(input2.value)
+
+    var soma = valor1 + valor2
+
+    alert("A soma é igual a " + soma)
+})
+</script>
+</body>
+</html>
