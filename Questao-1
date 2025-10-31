@@ -1,0 +1,93 @@
+<!DOCTYPE html> 
+<html lang="pt-br"> 
+<head> 
+<meta charset="UTF-8"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style> 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+    background-color: #0b0b0d; 
+    color: #e3e3e3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 8px;
+}
+
+p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+
+ul {
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+li {
+    padding: 5px 0;
+    color: #cfcfcf;
+    font-weight: 500;
+}
+
+
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    font-size: 1rem;
+}
+.matr{
+     margin: 0;  
+    padding: 0;      
+    display: flex;
+    align-items: center;
+}
+
+
+a {
+    color: #7a6fe2; 
+    font-weight: 600;
+}
+
+a:hover {
+    color: #a99ff5;
+    text-decoration: underline;
+}</style>
+<title>Questão 1</title> 
+</head>
+<body>
+<div>
+    <h1>Luan Verly</h1>
+    <p>Estudante de Ciência da Computação</p>
+
+    <p>Olá, meu nome é Luan da Conceição Torres Verly, tenho 19 anos, sou um estudante de Desenvolvimento Web a procura de uma grande oportunidade e aprimorar minha experiência em tecnologia. Sou estudante de Ciência da Computação na Estácio, formação que estou criando especialidade em Desenvolvimento Web. Tenho experiência com HTML, CSS, entre outras tecnologias. Sou uma pessoa persistente e resiliente, focado em corrigir erros.</p>
+
+    <p>Tecnologias utilizadas:</p>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>PHP</li>
+    </ul>
+    <div class="links">
+        <a href="http://">GitHub</a>
+        <a href="http://">LinkedIn</a>
+        <p class="matr">Matrícula: 202503170151</p>
+    </div>
+</div>
+</body>
+</html>
