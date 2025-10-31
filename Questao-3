@@ -1,0 +1,38 @@
+<!DOCTYPE html> 
+<html lang="pt-br"> 
+<head> 
+<meta charset="UTF-8"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+    body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+button {
+    padding: 10px 30px;
+    font-size: 20px;
+    margin-top: 156px;
+    cursor: pointer;
+}
+</style>
+<title>Questão 3</title> 
+</head>
+<body>
+<h1>Pressione o botão abaixo para mudar a cor da página</h1>
+<button>Mudar cor</button>
+<script>
+var botao = document.querySelector('button')
+
+var cores = ['blue', 'yellow', 'red', 'green', 'pink', 'orange', 'purple', 'brown']
+
+botao.addEventListener('click', function() {
+    var variacaoDasCores = cores[Math.floor(Math.random() * cores.length)]
+
+    document.body.style.backgroundColor = variacaoDasCores
+})
+</script>
+</body>
+</html>
